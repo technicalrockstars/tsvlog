@@ -1,0 +1,12 @@
+{
+    "name": "tsvlog",
+    "version" : "0.0.1",
+    "author" : "Technical Rockstars",
+    "description" : "logger module",
+    "keywords" : ["log","tab"],
+    "repository": {
+    	"type": "git",
+	    "url": "git@github.com:technicalrockstars/tsvlog.git"
+	},
+	"license": "MIT"
+}

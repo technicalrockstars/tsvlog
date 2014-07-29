@@ -10,4 +10,4 @@ logger.prefix(function() {
 logger.info("info", "signup", "message");
 logger.info("info", "signup", "message");
 logger.error("error", "createapp", "message");
-logger.info("info", "signup", "message");
+logger.info("info", "signup", new Error().stack);

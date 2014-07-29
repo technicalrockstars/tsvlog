@@ -11,7 +11,7 @@ var logger = {
 	base : function(stdout, _arguments) {
 		var _args = this.create_prefix().concat();
 		for(var i=0;i < _arguments.length;i++) {
-			_args.push(_arguments[i].replace(/\n/g, "\\n"));
+			_args.push(String(_arguments[i]).replace(/\n/g, "\\n"));
 		}
 		this.stdout(stdout, _args);
 	},
